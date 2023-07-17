@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+   font-family: "Poppins", sans-serif;
+   box-sizing: border-box;
+}
+
+body{
+  background-image: url('stethoscope.png');
+  background-color: #f0f4f5;
+  background-repeat: no-repeat;
+  background-size: 2000px 2000px;
+  background-position: center;
+  width: 15vh;
+  overflow: hidden;
+}
+
+nav{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+#img1 {
+     margin-right: 600px;
+     margin-top: 6px;
+     height: 180px;
+}
+
+nav ul{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 30px; */
+  width: 30vw;
+  height: 15vh;
+}
+
+nav ul li{
+  display: flex;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+nav ul li:hover{
+  font-size: 80;
+    text-decoration: #20bc7e;
+    font-weight: 1100;
+    cursor: pointer;
+}
+
+a{
+  color: black;
+  height: 50px;
+  text-decoration: none;
+}
+
+.head{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.head-left{
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 50px;
+}
+
+.text-heading{
+  font-size: 220px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+
+.discription{
+  font-size: 50px;
+  margin-left: 100px;
+  color: rgb(108,110,111);
+}
+
+.bottom_angel{
+  width: 100vw;
+  margin-left: 2000px;
+}
+
+.button{
+  background-color: rgb(34,188,126);
+  font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 30px 56px;
+    cursor: pointer;
+    /* margin-top: 25px; */
+    border-radius: 100px;
+    margin-left: 50px;
+    height: 170px;
+    width: 800px;
+}
+
+.button:hover{
+  background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+}
+
+.mouse {
+  width: auto;
+  margin-left: 2000px;
+}
+
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellowBox {
+  width: 30%;
+  bottom: 50px;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}

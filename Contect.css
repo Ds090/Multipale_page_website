@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+     font-family: "Poppins", sans-serif;
+     box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #f0f4f5;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    width: 15vh;
+    overflow: hidden;
+  }
+  
+  nav{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  #img1 {
+       margin-right: 600px;
+       margin-top: 6px;
+       height: 180px;
+  }
+  
+  nav ul{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 30px; */
+    width: 30vw;
+    height: 15vh;
+  }
+  
+  nav ul li{
+    display: flex;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  
+  nav ul li:hover{
+    font-size: 80;
+      text-decoration: #20bc7e;
+      font-weight: 1100;
+      cursor: pointer;
+  }
+  
+  a{
+    color: black;
+    height: 50px;
+    text-decoration: none;
+  }
+
+  form{
+    width: 12vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2000px;
+    padding-bottom: 100px;
+  }
+
+  form fieldset{
+    height: 750px;
+    width: 650px;
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  form fieldset label{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 27px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form fieldset input{
+    border: transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    width: 575px;
+    height: 50px;
+    margin-left: 27px;
+    font-size: 30px;
+  }
+
+  form fieldset textarea{
+    margin-left: 27px;
+    border: transparent;
+    height: 100px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 30px;
+  }
+
+  form button{
+    border: transparent;
+    border-radius: 18px;
+    background: #20BC7E;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 27px;
+    height: 100px;
+    width: 580px;
+    margin-top: 20px;
+
+  }
+
+  form button:hover{
+    background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+  }

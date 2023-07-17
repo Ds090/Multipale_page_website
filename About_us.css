@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+     font-family: "Poppins", sans-serif;
+     box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #f0f4f5;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    width: 15vh;
+    overflow: hidden;
+  }
+  
+  nav{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  #img1 {
+       margin-right: 600px;
+       margin-top: 6px;
+       height: 180px;
+  }
+  
+  nav ul{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 30px; */
+    width: 30vw;
+    height: 15vh;
+  }
+  
+  nav ul li{
+    display: flex;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  
+  nav ul li:hover{
+    font-size: 80;
+      text-decoration: #20bc7e;
+      font-weight: 1100;
+      cursor: pointer;
+  }
+  
+  a{
+    color: black;
+    height: 50px;
+    text-decoration: none;
+  }
+
+  main{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin-top: 600px;
+   }
+
+  .main-heading{
+    height: 15vh;
+  }
+
+  .main-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  
+  .main-heading p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .box{
+    /* border: transparent black; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 15px;
+  }
+
+  .box1{
+    height: 200px;
+    width: 400px;
+    border: transparent;
+    box-shadow: 0 0 10px black;
+    border-radius: 25px;
+    }
+
+    .box1 p{
+      padding-top: 50px;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+   b{
+      color: #20bc7e;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .box2{
+    height: 200px;
+    width: 400px;
+    border: transparent;
+    box-shadow: 0 0 10px black;
+    border-radius: 25px;
+    }
+
+    .box2 p{
+      padding-top: 50px;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .box3{
+      height: 200px;
+      width: 400px;
+      border: transparent;
+      box-shadow: 0 0 10px black;
+      border-radius: 25px;
+      }
+
+      .box3 p{
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight: 700;
+      }

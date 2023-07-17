@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(15,15,16);
+    color: white;
+}
+
+
+nav{
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    position: relative;
+    left: 2000px;
+    bottom: 900px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    gap: 200px;
+}
+
+nav ul li{
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mainImage{
+    position: relative;
+    left: 1370px;
+    height: 1000px;
+    bottom: 50px;
+}
+
+.beatsLogo{
+    position: relative;
+    left: 1100px;
+    bottom: 670px;
+    height: 100px;
+}
+
+.Shop{
+    position: relative;
+    left: 3500px;
+    bottom: 1120px;
+    height: 130px;
+    width: 350px;
+    background-color: rgb(27,27,28);
+    color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    border: hidden;
+}
+
+.Shop:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.secpart2{
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    left: 2200px;
+    bottom: 880px;
+}
+
+.onEar{
+    height: 190px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.secpart2 h1{
+    font-size: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+.secpart2 h3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.secpart2 p{
+    font-size: 25px;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+
+.addToBag{
+    height: 95px;
+    width: 490px;
+    background-color: rgb(27,27,28);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding-top: 25px;
+    border: hidden;
+}
+
+.addToBag:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    position: relative;
+    bottom: 800px;
+}
+
+.Company img{
+    height: 60px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specsLogo{
+    position: relative;
+    bottom: 1050px;
+    left: 500px;
+    height: 150px;
+}
+
+.sec2Left{
+    position: relative;
+    bottom: 350px;
+    right: 500px;
+}
+
+.sec2Left div{
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.sec2Left div img{
+    height: 50px;
+}
+
+.bluetooth{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.mic{
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+
+.specsImage{
+    height: 800px;
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.caseLogo{
+    position: relative;
+    bottom: 550px;
+    height: 110px;
+    left: 300px;
+}
+
+.caseImage{
+    height: 600px;
+    position: relative;
+    bottom: 40px;
+    right: 350px;
+}
+
+.rightSection3{
+    font-size: 30px;
+    line-height: 50px;
+    position: relative;
+    right: 200px;
+    bottom: 90px;
+}
+
+.moreInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    height: 90px;
+    width: 320px;
+    background-color: rgb(27,27,28);
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: hidden;
+    cursor: pointer;
+}
+
+.moreInfo img{
+    height: 50px;
+}
+
+.moreInfo:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4{
+    height: 800px;
+    width: 2100px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(27,27,28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec4left{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    left: 90px;
+}
+
+.sec4left h3{
+    font-size: 50px;
+}
+
+.sec4left p{
+    font-size: 25px;
+}
+
+.bag{
+    height: 90px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bag img{
+    height: 30px;
+    position: relative;
+    left: 13px;
+}
+
+.sec4right img{
+    height: 650px;
+    width: 1000px;
+
+}
+
+.section5{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+   height: 400px;
+   width: 400px;
+   background-color: rgb(27,27,28);
+   border-radius: 15px;
+   position: relative;
+   right: 550px;
+   top: 400px;
+}
+
+.item1 p{
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    font-size: 40px;
+}
+
+.blackpng{
+    position: relative;
+    bottom: 120px;
+    left: 75px;
+}
+
+.shop1{
+    position: relative;
+    left: 290px;
+    bottom: 170px;
+    background-color: black;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    border: hidden;
+    border-radius: 20px;
+}
+
+.item2{
+   height: 400px;
+   width: 400px;
+   background-color: rgb(27,27,28);
+   border-radius: 15px;
+}
+
+.item2 p{
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    font-size: 40px;
+}
+
+.redBlack{
+    position: relative;
+    bottom: 120px;
+    left: 75px;
+}
+
+.shop2{
+    position: relative;
+    left: 290px;
+    bottom: 170px;
+    background-color: black;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    border: hidden;
+    border-radius: 20px;
+}
+
+.item3{
+   height: 400px;
+   width: 400px;
+   background-color: rgb(27,27,28);
+   border-radius: 15px;
+   position: relative;
+   right: 550px;
+   top: 150px;
+}
+
+.item3 p{
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    font-size: 40px;
+}
+
+.nightBlack{
+    position: relative;
+    bottom: 120px;
+    left: 75px;
+}
+
+.shop3{
+    position: relative;
+    left: 310px;
+    bottom: 170px;
+    background-color: black;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    border: hidden;
+    border-radius: 20px;
+}
+
+.item4{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(27,27,28);
+    border-radius: 15px;
+    position: relative;
+    bottom: 250px;
+}
+
+.item4 p{
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    font-size: 40px;
+}
+
+.blue{
+    position: relative;
+    bottom: 120px;
+    left: 75px;
+}
+
+.shop4{
+    position: relative;
+    left: 290px;
+    bottom: 170px;
+    background-color: black;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    border: hidden;
+    border-radius: 20px;
+}
+
+.product{
+    position: relative;
+    top: 180px;
+    height: 150px;
+    right: 150px;
+
+}
+
+.item5{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(27,27,28);
+    border-radius: 15px;
+    position: relative;
+    right: 550px;
+    bottom: 100px;
+}
+
+.item5 p{
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    font-size: 40px;
+}
+
+.twilightGray{
+    position: relative;
+    bottom: 120px;
+    left: 75px;
+}
+
+.shop_5{
+    position: relative;
+    left: 290px;
+    bottom: 170px;
+    background-color: black;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    border: hidden;
+    border-radius: 20px;
+}
+
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    bottom: 800px;
+    margin-bottom: 500px;
+    margin-top: 300px;
+}
+
+.footerLogo{
+    position: relative;
+    right: 470px;
+}
+
+.section6_1 ul{
+    font-size: 40px;
+    line-height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.section6_2 ul{
+    position: relative;
+    left: 500px;
+    font-size: 40px;
+    line-height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input{
+    width: 900px;
+    height: 110px;
+    background-color: rgb(24,26,27);
+    color: rgb(107, 109, 110);
+    font-size: 40px;
+    /* border: hidden; */
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+    text-align: start;
+    border: none;
+}
+
+.subscribe-button{
+    background: #0A0A0B;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 90px;
+    width: 320px;
+    position: relative;
+    bottom: 200px;
+    left: 1360px;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .rightArrow{
+    height: 30px;
+    
+  }
+
+  .upArrow{
+    height: 100px;
+    position: relative;
+    left: 1550px;
+    bottom: 150px;
+    cursor: pointer;
+  }
+
+  .Logofooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    right: 200px;
+    top: 50px;
+  }
+  
+  .Logofooter img{
+    height: 100px;
+    cursor: pointer;
+  }
